@@ -1,0 +1,46 @@
+Sr No,Labels,Priority,Name,test script - Steps,Test Data,Expected Result,Coverage Issue,Estimated Time,Owner,Status
+TC001,User Interface,High,Verify the user is able to see the FD option available on the header sign up,Hit the URL ,https://www.icicihfc.com/,User should land on the Home page of the application,,,,
+,,,,Observe the header,,"""FD"" option should be available on the header",,,,
+,,,,"Click on ""FD"" or hover",,"All the items on the list should be visible to the user (Apply FD, Download TDS Certificate, Download Interest certificate, Fixed Deposits, Benefits, FD Interest rate, FD Caluculator, Documents, FAQ's)",,,,
+TC002,Functional,High,"Verify if the user is able to navigate to the ""Download TDS Certificate"" landing page",Hit the URL ,https://www.icicihfc.com/,User should land on the Home page of the application,,,,
+,,,,Observe the header,,"""FD"" option should be available on the header",,,,
+,,,,"Click on ""FD"" or hover",,"All the items on the list should be visible to the user (Apply FD, Download TDS Certificate, Download Interest certificate, Fixed Deposits, Benefits, FD Interest rate, FD Caluculator, Documents, FAQ's)",,,,
+,,,,"Click on ""Download TDS Certificate"" option",,User should be redirected to the Login/Sign up page,,,,
+TC003,User Interface,Normal,Verify the details of login page,Hit the URL ,https://www.icicihfc.com/,User should land on the Home page of the application,,,,
+,,,,Observe the header,,"""FD"" option should be available on the header",,,,
+,,,,"Click on ""FD"" or hover",,All the items on the list should be visible to the user ,,,,
+,,,,"Click on ""Download TDS Certificate"" option",,User should be redirected to the Login/Sign up page,,,,
+,,,,Observe the details,,"Below elements/components should be present on the page
+1. Benefits section
+2. Login/Sign up section",,,,
+,,,,Observe the details of Benefits section,,"The section should contain
+1. Title
+2. Benefits with the icon and description",,,,
+,,,,"Check color, size, alignement and text of the title ",,"The color, font size, alignment of the title should be as per requirement
+The text should be ""Grow your savings with our Top Rated FD""",,,,
+,,,,"Check color, size, alignement and text of the description",,"The color, font size, alignment of the title should be as per requirement
+And ahead of the description and title there should be an icon",,,,
+TC004,User Interface,Normal,Verify the details of Login/Sign up page,Hit the URL ,https://www.icicihfc.com/,User should land on the Home page of the application,,,,
+,,,,Observe the header,,"""FD"" option should be available on the header",,,,
+,,,,"Click on ""FD"" or hover",,All the items on the list should be visible to the user ,,,,
+,,,,"Click on ""Download TDS Certificate"" option",,User should be redirected to the Login/Sign up page,,,,
+,,,,Observe the details,,"The section should contain:
+1) a title (Login / Sign up)
+2) a message (Enter PAN Card Number)
+3) Pan card/Customer ID.
+4) Proceed button
+and a carousel should be placed at bottom",,,,
+TC005,Functional,High,Verify if the user is able to login with the valid details or not.,Hit the URL ,https://www.icicihfc.com/,User should land on the Home page of the application,,,,
+,,,,Observe the header,,"""FD"" option should be available on the header",,,,
+,,,,"Click on ""FD"" or hover",,All the items on the list should be visible to the user ,,,,
+,,,,"Click on ""Download TDS Certificate"" option",,User should be redirected to the Login/Sign up page,,,,
+,,,,Observe the details,,"The section should contain:
+1) a title (Login / Sign up)
+2) a message (Enter PAN Card Number)
+3) Pan card/Customer ID.
+4) Proceed button
+and a carousel should be placed at bottom",,,,
+,,,,Enter PAN/Customer ID,,The Text field should be enabled and user should be able to enter the PAN details,,,,
+,,,,Verify the ECP of the text  field,,Only alphabets and numbers should be allowed. Any special character should not be allowed,,,,
+,,,,Check the character limit of the text field,,The character limit of the field should be 16,,,,
+,,,,Click on Proceed button,,The Proceed button should be enabled and clickable. And user should be successfully logged in.,,,,
