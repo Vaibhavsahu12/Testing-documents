@@ -1,0 +1,27 @@
+Sr No,Labels,Priority,Name,test script - Steps,Test Data,Expected Result,Coverage Issue,Estimated Time,Owner,Status
+TC001,User Interface,High,Verify the user is able to see the FD option available on the header sign up,Hit the URL ,https://www.icicihfc.com/,User should land on the Home page of the application,,,,
+,,,,Observe the header,,"""FD"" option should be available on the header",,,,
+,,,,"Click on ""FD"" or hover",,"All the items on the list should be visible to the user (Apply FD, Download TDS Certificate, Download Interest certificate, Fixed Deposits, Benefits, FD Interest rate, FD Caluculator, Documents, FAQ's)",,,,
+TC002,Functional,High,"Verify if the user is able to navigate to the ""Documents"" landing page",Hit the URL ,https://www.icicihfc.com/,User should land on the Home page of the application,,,,
+,,,,Observe the header,,"""FD"" option should be available on the header",,,,
+,,,,"Click on ""FD"" or hover",,"All the items on the list should be visible to the user (Apply FD, Download TDS Certificate, Download Interest certificate, Fixed Deposits, Benefits, FD Interest rate, FD Caluculator, Documents, FAQ's)",,,,
+,,,,"Click on ""Fixed Deposit Documents"" option",,User should be redirected to the details page,,,,
+TC003,User Interface,Normal,Verify the details of the page,Hit the URL ,https://www.icicihfc.com/,User should land on the Home page of the application,,,,
+,,,,Observe the header,,"""FD"" option should be available on the header",,,,
+,,,,"Click on ""FD"" or hover",,All the items on the list should be visible to the user ,,,,
+,,,,"Click on ""Fixed Deposit Documents"" option",,User should be redirected to the details page,,,,
+,,,,Observe the details,,"Below elements/components should be present on the page
+1. Title 
+2. a List of documents",,,,
+,,,,"Check color, size, alignement and text of the title ",,"The color, font size, alignment of the title should be as per requirement
+The text should be ""Fixed Deposit Documents""",,,,
+,,,,"Check color, size, alignement and text of the description",,"The color, font size, alignment of the description should be as per requirement
+",,,,
+TC004,Functional,High,Verify if the user can download the documents or not.,Hit the URL ,https://www.icicihfc.com/,User should land on the Home page of the application,,,,
+,,,,Observe the header,,"""FD"" option should be available on the header",,,,
+,,,,"Click on ""FD"" or hover",,All the items on the list should be visible to the user ,,,,
+,,,,"Click on ""Fixed Deposit Documents"" option",,User should be redirected to the details page,,,,
+,,,,Observe the details,,"Below elements/components should be present on the page
+1. Title 
+2. a List of documents",,,,
+,,,,Click on the documents hyperlink,,On clicking the hyperlink the document should get downloaded and user should land on the documents section again.,,,,

@@ -1,0 +1,29 @@
+Sr No,Labels,Priority,Name,test script - Steps,Test Data,Expected Result,Coverage Issue,Estimated Time,Owner,Status
+TC001,User Interface,High,Verify the user is able to see the FD option available on the header sign up,Hit the URL ,https://www.icicihfc.com/,User should land on the Home page of the application,,,,
+,,,,Observe the header,,"""FD"" option should be available on the header",,,,
+,,,,"Click on ""FD"" or hover",,"All the items on the list should be visible to the user (Apply FD, Download TDS Certificate, Download Interest certificate, Fixed Deposits, Benefits, FD Interest rate, FD Caluculator, Documents, FAQ's)",,,,
+TC002,Functional,High,"Verify if the user is able to navigate to the ""FD Calculator"" landing page",Hit the URL ,https://www.icicihfc.com/,User should land on the Home page of the application,,,,
+,,,,Observe the header,,"""FD"" option should be available on the header",,,,
+,,,,"Click on ""FD"" or hover",,"All the items on the list should be visible to the user (Apply FD, Download TDS Certificate, Download Interest certificate, Fixed Deposits, Benefits, FD Interest rate, FD Caluculator, Documents, FAQ's)",,,,
+,,,,"Click on ""FD Calculator"" option",,User should be redirected to the details page,,,,
+TC003,User Interface,Normal,Verify the details of the page,Hit the URL ,https://www.icicihfc.com/,User should land on the Home page of the application,,,,
+,,,,Observe the header,,"""FD"" option should be available on the header",,,,
+,,,,"Click on ""FD"" or hover",,All the items on the list should be visible to the user ,,,,
+,,,,"Click on ""FD Calculator"" option",,User should be redirected to the details page,,,,
+,,,,Observe the details,,"Below elements/components should be present on the page
+1. Title 
+2. Description
+3. FD Calculator",,,,
+,,,,"Check color, size, alignement and text of the title ",,"The color, font size, alignment of the title should be as per requirement
+The text should be ""FD Calculator""",,,,
+,,,,"Check color, size, alignement and text of the description",,"The color, font size, alignment of the description should be as per requirement
+",,,,
+TC004,User Interface,Normal,Verify the FD Calculator,Hit the URL ,https://www.icicihfc.com/,User should land on the Home page of the application,,,,
+,,,,Observe the header,,"""FD"" option should be available on the header",,,,
+,,,,"Click on ""FD"" or hover",,All the items on the list should be visible to the user ,,,,
+,,,,"Click on ""FD Calculator"" option",,User should be redirected to the details page,,,,
+,,,,Observe the details,,"Below elements/components should be present on the page
+1. Title 
+2. Description
+3. FD Calculator",,,,
+,,,,Check the Calculator,,,,,,
