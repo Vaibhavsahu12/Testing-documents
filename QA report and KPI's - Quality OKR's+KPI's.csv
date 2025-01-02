@@ -1,0 +1,64 @@
+Sl. No.,Items,SCORE,Comment (Evaluation criteria),Artifacts,Remarks
+1,"Test Strategy - Testing Scope identified (Functional, Non Functional)
+Test Strategy - All tools identified (Planning, Functional, Automation, Performance)
+Test Stategy covers tools strategy, test env/devices details, regression strategy, QA process, Bug/defect Lifecycle
+
+(Method: Review by Manager, Architect and BU Head)",5,"5-Test strategy, test plans and test coverage are comprehensive
+4-Test strategy and test coverage is defined, plans in progress
+3-Test strategy defined partially 
+2-Test strategy not defined or not present",,
+2,Test Coverage - Traceability to Test cases and req (Can be covered in any tool used in project like Jira. If no tool used then excel file can be used),4,"5-90%+ Traceability matrix defined and maintained completely, 
+4-70%+ Traceability matrix identified and partial details filled, 
+3-50%+ Traceability matrix is identified and only minor updates are done,
+2-Traceability not deifned",,
+3,"Test Coverage - Test scenarios/test cases covers positive, negative, boundary conditions (This will be measured through the test scenarios/ test cases reviews by peers or leads)",5,"5-All test cases covered and detailed ,
+4-Positive and Negative test cases covered in detail,
+3-Only parital test cases are covered
+2-Test cases not covered",,
+4,Test data defined and identifed for the test cases. All test cases should be supported by relevant test data. (This will be measure and tracked through reviews by Peers or leads) ,4,"5-Detailed and comprehensive test data defined 
+4-Test data defined for partial tests,
+3-Only partial or inconsistent data is avaialble,
+2-Test data not defined for test cases",,
+5,"Test artifacts (Scripts, Templates, Code) are stored on GIT or release management tool",5,"5-All artifacts on release mgmt tool and best pracices followed,
+4-Artifacts are there, best practices followeed intermittently
+3-No Artifacts available",,
+6,Test Execution - Test Scenarios/test cases/test data coverage is adequate and meets all requirements,5,"5-All flows are covered in depth in testing,
+4-Positive flows are covered in testing,
+3-Partial flows are covered in testing,
+2-Inconsistency in flows coverage",,
+7,Test cases are reviewed regularly. (Reviews needs to be reviewed by Peers or Leads),5,"5-Reviews happening regularly and feedbacks comprehensive,
+4-Reviews happening for most fo req,
+3-Reviews happening for partial requirements,
+2-Review not happening consistently",,
+8,Automation - Test automation framework is defined,5,"5-Automation framework is designed as per best practices and CI/CD
+4- Test automation framework is setup and scripts reviews are happening
+3- Test automation structure is build and used in the project
+2- Test automation framework not setup yet",,
+9,"Automation - Coding guidelines/checklist defined and used in the automation project, if applicable",5,"5-Automation guidelines identified and followed regorously,
+4-Guidelines defined and followed most of time,
+3-Guidelines defined and followed some times,
+2-Guidelines not defined and followed",,
+10,Automation - Test automation coverage is adequate,2,"5-80% automation coverage as per scope 
+4-50% automation coverage
+3-35% automation coverage
+2-10% automation coverage",,
+11,"Automation Outcome - Defects found by automation (This metrics will be used )
+Calculation: # of defects found by automation / # of defects found (in a period of time)",2,"5- 40%+ of issues are found by automation scripts in total
+4- 25%+ of issues are found through automation
+3- 15% issues reported by automation
+2- 5% issues reported by automaiton ",,
+12,Test execution logs are maintained,5,"5- 90% of tests executed have good execution logs, (Screenshots and details of test execution)
+4- 70%+
+3- 60%+
+2- 50%+",,
+13,Quality of logged defects is good and adequate information is provided,5,"5- 80%+ valid defects,
+4-70%+ valid defects
+3- 50% valid defects
+2- <50% Valid defects",,"All the required information are provided in bugs. For example :Title , Description,Test steps , Test Data ,Enviornment, browser , Screen Recording(With voice input if required) ,Screenshots ,Expected Result,Priority,Labels like regression ,accessibility , reopen, Epic link ,Story number (if feasible) etc."
+14,"Regression strategy followed while doing regression (Strategy and Execution)
+(Method: Review by Manager or BU Head)
+",4,"5- 90%+ high critical issues* from production RCA is done,
+4- 75%+ * RCA done,
+3-50%+ * RCA done
+2- RCA not done",,
+15,,0,,,NA as RCA will be done by Developers now informed by Deepak on 30th May
